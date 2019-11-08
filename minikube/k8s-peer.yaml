@@ -32,7 +32,7 @@ spec:
           - name: ORG_CONTEXT
             value: org1.example
           - name: CORE_PEER_ADDRESS
-          # value: acme-peer-clusterip:30751
+            value: peer0.org1.example.com-clusterip:30751
             value: localhost:30751
         volumeMounts:
         - name: peer0.org1.example.com-ledger
